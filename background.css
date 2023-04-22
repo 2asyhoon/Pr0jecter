@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+@import url(index.html);
+
+@media screen and (max-width: 768px) {
+   
+    .ti {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    
+  }
+
+
+  /* 768px 이상일 때 */
+  @media screen and (min-width: 1800px) {
+    .mun{
+      margin-right: 20px;
+      margin-left: 1100px;
+    }
+  }
+
+header {
+    background-color: #ffffff5b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+  
+   .ti{ width: 130px;
+        height: 20px;
+    margin: 50px; 
+  }
+  
+  nav {
+    margin: 20px;
+    }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    
+  }
+  
+  nav ul li {
+    margin: 0 40px;
+  }
+
+ 
+  nav ul li a {
+    color: #000000;
+    font-size: 12px; 
+    text-decoration: none;
+    font-weight: bold;
+   }
+
+
+
+  .mun {
+    background-color: #027206;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 30px;
+    opacity: 0.6;
+    transition: 0.3s;
+
+    }
+
+    .mun:hover{opacity: 1;}
+
+
+
+
+ 
+
+
+
+
+
+  
+
+    
+  
+
+  
+  
